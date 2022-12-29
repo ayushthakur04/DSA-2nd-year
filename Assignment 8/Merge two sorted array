@@ -1,0 +1,19 @@
+class Solution {
+public:
+    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+        int i = 0, j = 0, k = 0,key;
+        vector<int>nums3;
+      // traverse the arr1 and insert its element in arr3
+      for(i=0;i<m;i++){
+        nums3.push_back(nums1[i]);
+    }
+       
+     for(i=0;i<n;i++){
+        nums3.push_back(nums2[i]);
+    }
+     
+  
+    sort(nums3.begin(),nums3.end());
+    nums1=nums3;
+}
+};
