@@ -6,7 +6,7 @@ int main() {
 	string a,b;
     cin>>a>>b;
   int lena=a.size();
-  int lenb=b.size();
+  int lenb=b.size();a
   cout<<lena<<"\t";
   cout<<lenb<<endl;
   string  sum=a+b;
