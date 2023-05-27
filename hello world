@@ -2,7 +2,7 @@
 #include <cstdio>
 using namespace std;
 
-int main() {
+int main() {a
     cout<<"Hello, World!";a
     }2
 
