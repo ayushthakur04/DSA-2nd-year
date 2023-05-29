@@ -6,7 +6,7 @@ public:
       
         while(l<=n){
              int mid=l+(r-l)/2;
-              int g=guess(mid);
+              int g=guess(mid);a
             if(g==0){
                 return mid;
             }else if(g==1){
