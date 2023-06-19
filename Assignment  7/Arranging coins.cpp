@@ -10,6 +10,6 @@ public:
      }   
      res=i-2;
      return res;
-    }
+    }a
     
 };
